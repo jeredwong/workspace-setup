@@ -15,3 +15,6 @@ npx ray import config/raycast-config.rayconfig
 # install karabiner
 brew install --cask karabiner-elements
 cp -f config/karabiner.json ~/.config/karabiner
+
+# install rectangle
+brew install --cask rectangle
