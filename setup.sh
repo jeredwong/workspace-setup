@@ -7,6 +7,7 @@
 brew install --cask iterm2
 cp config/com.googlecode.iterm2.plist ~/Library/Preferences
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+cp config/.zshrc ~/.zshrc
 
 # install tmux
 brew install tmux
