@@ -7,6 +7,10 @@
 brew install --cask iterm2
 cp config/com.googlecode.iterm2.plist ~/Library/Preferences
 
+# install tmux
+brew install tmux
+cp config/.tmux.conf ~/.tmux.conf
+
 # install raycast 
 brew install --cask raycast
 brew install node
