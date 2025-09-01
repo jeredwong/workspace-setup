@@ -1,0 +1,31 @@
+# Japandi Theme for Ghostty
+
+background = #131419
+foreground = #FCFAF7
+cursor-color = #EDDBC2
+
+# ANSI color palette (16-color terminal)
+palette = 0=#131419
+palette = 1=#FF5C5C
+palette = 2=#BDAC8C
+palette = 3=#EDDBC2
+palette = 4=#479FFA
+palette = 5=#E2CEB6
+palette = 6=#A1998C
+palette = 7=#FCFAF7
+
+palette = 8=#46474F
+palette = 9=#FF5C5C
+palette = 10=#BDAC8C
+palette = 11=#EDDBC2
+palette = 12=#479FFA
+palette = 13=#E2CEB6
+palette = 14=#A1998C
+palette = 15=#FCFAF7
+
+# Cursor style
+cursor-style = block
+cursor-style-blink = false
+
+title = " "
+macos-titlebar-proxy-icon = hidden
