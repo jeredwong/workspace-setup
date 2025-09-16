@@ -1,0 +1,36 @@
+# --- Prompt Colors Inspired by Japandi Nightfall ---
+RESET="%f%k"
+FG_BEIGE="%F{223}"       # ~E2CEB6
+FG_OFFWHITE="%F{15}"     # ~FCFAF7
+FG_MUTED="%F{246}"       # ~A1998C
+FG_ERROR="%F{161}"       # ~D84F68
+FG_WARN="%F{180}"        # ~EDDBC2
+FG_DIR="%F{187}"         # ~cbb394
+
+# --- Symbols ---
+PROMPT_GIT_BRANCH="%F{244} %f"
+PROMPT_SEPARATOR="❯"
+
+# --- Git Branch Info ---
+autoload -Uz vcs_info
+precmd() { vcs_info }
+
+zstyle ':vcs_info:git:*' formats '(%b)'
+
+# --- Prompt ---
+PROMPT='
+${FG_MUTED}%n@%m${RESET} ${FG_DIR}%~${RESET} ${FG_WARN}${vcs_info_msg_0_}${RESET}
+${FG_BEIGE}${PROMPT_SEPARATOR} ${RESET}'
+
+# --- Enable Colors ---
+autoload -U colors && colors
+
+# --- Optional: Customize LS_COLORS for Japandi Feel ---
+export LSCOLORS="GxFxCxDxBxegedabagaced" # Optional, for `ls` aesthetics
+
+# --- Alias for Git Status with Colors ---
+alias gs='git status'
+
+# --- Minimalist Setup ---
+setopt PROMPT_SUBST
+

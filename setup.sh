@@ -3,9 +3,9 @@
 # install homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# install iterm2
-brew install --cask iterm2
-cp config/com.googlecode.iterm2.plist ~/Library/Preferences
+# install ghostty
+brew install --cask ghostty
+cp config/ghostty-config ~/.config/ghostty
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 brew install zsh-autosuggestions
 echo "source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
