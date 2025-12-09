@@ -1,27 +1,26 @@
-# Japandi Theme for Ghostty
+# kanso theme 
+palette = 0=#090E13
+palette = 1=#c4746e
+palette = 2=#8a9a7b
+palette = 3=#c4b28a
+palette = 4=#8ba4b0
+palette = 5=#a292a3
+palette = 6=#8ea4a2
+palette = 7=#a4a7a4
+palette = 8=#5C6066
+palette = 9=#e46876
+palette = 10=#87a987
+palette = 11=#e6c384
+palette = 12=#7fb4ca
+palette = 13=#938aa9
+palette = 14=#7aa89f
+palette = 15=#c5c9c7
 
-background = #131419
-foreground = #FCFAF7
-cursor-color = #EDDBC2
-
-# ANSI color palette (16-color terminal)
-palette = 0=#131419
-palette = 1=#FF5C5C
-palette = 2=#BDAC8C
-palette = 3=#EDDBC2
-palette = 4=#479FFA
-palette = 5=#E2CEB6
-palette = 6=#A1998C
-palette = 7=#FCFAF7
-
-palette = 8=#46474F
-palette = 9=#FF5C5C
-palette = 10=#BDAC8C
-palette = 11=#EDDBC2
-palette = 12=#479FFA
-palette = 13=#E2CEB6
-palette = 14=#A1998C
-palette = 15=#FCFAF7
+background = #090E13
+foreground = #c5c9c7
+cursor-color = #c5c9c7
+selection-background = #22262D
+selection-foreground = #c5c9c7
 
 # Cursor style
 cursor-style = block
